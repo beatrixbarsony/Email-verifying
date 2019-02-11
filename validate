@@ -1,0 +1,14 @@
+   // Validating email address
+            
+            string emailAddress;
+            Console.Write("Please give me your e-mail address!");
+            emailAddress = Convert.ToString(Console.ReadLine());
+            if (emailAddress.IndexOf("@") != -1)
+            {
+                Console.WriteLine("Valid email address!");
+            }
+            else
+            {
+                Console.WriteLine("Invalid email address!");
+            }
+            Console.ReadLine();
